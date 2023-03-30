@@ -1,0 +1,14 @@
+{
+    "schedule": "weekly", // daily|weekly|monthly
+    "ignoredFiles": [
+        "*.test",                  // ignore by extension
+        "image1.test",              // ignore by filename
+        "public/special_images/*", // ignore by folderpath
+    ],
+    "aggressiveCompression": "true", // true|false
+    "compressWiki": "false", // true|false
+    "minKBReduced": 500, // delay new prs until size reduction meets this threshold (default to 10)
+    "prTitle" : "Imgbot work",        
+    "prBody" : " optimization ratio: {optimization_ratio},  
+                 optimization details: {optimization_details}",
+}
